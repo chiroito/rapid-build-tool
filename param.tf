@@ -32,6 +32,7 @@ variable "env" {
     primary_vcn_name = "primary_vcn"
     primary_dns_label = "psm"
     ssh_public_key = ""
+    ssh_private_key_file = ""
     domain_name = ""
   }
 }
@@ -93,6 +94,8 @@ variable "app_db" {
     storage_size = 256
     disk_redundancy = "HIGH"
     name = "pdb1"
+    app_user = "user1"
+    app_password = "Db#1Welcome1#"
   }
 }
 
