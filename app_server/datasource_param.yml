@@ -1,0 +1,5 @@
+DB.user=_db_user_
+DB.password=_db_password_
+DB.service=_db_service_
+DB.hostname=_db_hostname_
+WLS.target=_wls_target_

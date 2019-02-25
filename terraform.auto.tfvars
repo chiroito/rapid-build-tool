@@ -12,5 +12,6 @@ env = {
   primary_compartment_ocid = ""
   ssh_public_key = ""
   domain_name = ""
+  ssh_private_key_file = ""
 }
 
